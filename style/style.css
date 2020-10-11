@@ -271,7 +271,7 @@ color: white;
   and (-webkit-min-device-pixel-ratio: 2) {
     .section-text {
       width: 100%;
-      
+      height: auto;
       margin: 0 auto;
       display: block;
       transform: translate(0, 5em);
