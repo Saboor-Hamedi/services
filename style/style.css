@@ -268,13 +268,13 @@ color: white;
       height: auto;
       margin: 0 auto;
       display: block;
-      transform: translate(0, 10em);
+      transform: translate(0, 15em);
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
     }
-    #section-A #section-B{
+    #section-A, #section-B{
       background-color: none;
     }
 }
@@ -287,7 +287,7 @@ color: white;
       height: auto;
       margin: 0 auto;
       display: block;
-      transform: translate(0, 10em);
+      transform: translate(0, 15em);
       display: flex;
       justify-content: center;
       align-items: center;
