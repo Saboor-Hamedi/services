@@ -274,6 +274,9 @@ color: white;
       align-items: center;
       flex-direction: column;
     }
+    #section-A #section-B{
+      background-color: none;
+    }
 }
 @media only screen 
   and (min-device-width: 320px) 
