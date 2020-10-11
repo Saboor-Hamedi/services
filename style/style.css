@@ -83,7 +83,7 @@ body {
   margin-right: 10px;
 }
 
-#menu:hover {
+html.my-true-hover #menu:hover {
   background: var(--primary-color);
 }
 #section-A {
@@ -239,7 +239,9 @@ color: white;
 }
 
 @media only screen and (max-width: 600px){
-  
+    #section-A{
+      height: 500px;
+    }
     .cards{
         display: flex;
         justify-content: center;
@@ -278,8 +280,3 @@ color: white;
   
 }
 
-@media (hover: hover) {
-  #menu:hover {
-    background: var(--primary-color);
-  }
-}

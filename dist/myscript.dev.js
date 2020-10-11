@@ -8,4 +8,8 @@ menu.addEventListener('click', function () {
   } else {
     items.style.height = "0px";
   }
+}); // hover
+
+$(document).on('mq4hsChange', function () {
+  $(document.documentElement).toggleClass('my-true-hover', e.trueHover);
 });

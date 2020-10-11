@@ -13,3 +13,8 @@ menu.addEventListener('click', function(){
    
  
 })
+
+// hover
+$(document).on('mq4hsChange', function () {
+    $(document.documentElement).toggleClass('my-true-hover', e.trueHover);
+});
