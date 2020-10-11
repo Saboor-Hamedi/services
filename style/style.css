@@ -136,7 +136,7 @@ html.my-true-hover #menu:hover {
 button:focus {
   outline: none;
 }
-.more:hover {
+html.my-true-hover.more:hover {
   background: var(--primary-color);
 }
 
