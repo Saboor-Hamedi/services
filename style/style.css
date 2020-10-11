@@ -240,7 +240,7 @@ color: white;
 
 @media only screen and (max-width: 600px){
   #section-A{
-    height: auto;
+    height: 100vh;
   }
     .cards{
         display: flex;
