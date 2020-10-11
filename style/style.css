@@ -275,4 +275,11 @@ color: white;
     #section-A, #section-B{
       background-color: none;
     }
+  
+}
+
+@media (hover: hover) {
+  #menu:hover {
+    background: var(--primary-color);
+  }
 }
